@@ -7,6 +7,7 @@ public class Main {
             int age;
             int numberBI;
 
+            // Gerar IBAN
             void iban (){
                 var initIBAN = "EF11 0002.0000.0000.";
                 var restIBAN = "";
