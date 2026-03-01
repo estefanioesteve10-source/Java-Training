@@ -31,6 +31,6 @@ public class Main {
                 }
                 break;
         }
-        System.out.println("" + result);
+        System.out.println("The result is " + result);
     }
 }
