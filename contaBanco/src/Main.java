@@ -23,14 +23,14 @@ public class Main {
                 System.out.println("\n=====================Dados da Conta Bancária===================================");
                 System.out.println ("Name: " + username + "\n" + "Age: " + age + "\n" +
                         "BI number: " + numberBI + "\n" + "IBAN " + ibanComp);
-                System.out.println("\n==================================================================");
+                System.out.println("\n===================================================================");
             }
         }
         user user1 = new user();
         Scanner write = new Scanner(System.in);
         System.out.println("Write your name: ");
         var name = write.nextLine();
-        System.out.println("Hello, " + name);
+        System.out.println("Name: " + name);
         System.out.println("Write your age: ");
         var age = write.nextInt();
         System.out.println("Your age is: " + age);
