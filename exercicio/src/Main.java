@@ -5,7 +5,7 @@ public class Main {
         System.out.println("Qual o teu nome? ");
         var scanner = new Scanner(System.in);
         var nome = scanner.next();
-        System.out.printf("Meu nome é %s", nome);
+        System.out.printf("My name is %s", nome);
 
         }
     }
