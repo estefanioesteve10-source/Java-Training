@@ -7,7 +7,6 @@ public class Main {
         List.of("Banana", "Maçã", "Abacaxi").forEach(fruta -> {
             hash.add(fruta);
             linked.add(fruta);
-            t
 
             System.out.println("HashSet: " + hash);      // Saída provável: [Maçã, Abacaxi, Banana]
             System.out.println("Linked: " + linked);     // Saída: [Banana, Maçã, Abacaxi] (Ordem de inserção)
