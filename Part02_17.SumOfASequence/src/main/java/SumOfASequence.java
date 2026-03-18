@@ -9,6 +9,8 @@ public class SumOfASequence {
         System.out.print("Last number?");
         int last = Integer.valueOf(scanner.nextLine());
         int sum = 0;
+        
+        //
         for (int i = 0; i <= last; i++) {
             sum += i;
         }
