@@ -16,6 +16,7 @@ public class IndexOf {
 
             list.add(input);
         }
+        //
         System.out.print("Search for? ");
         int search = Integer.valueOf(scanner.nextLine());
         for (int i = 0; i < list.size(); i++) {
