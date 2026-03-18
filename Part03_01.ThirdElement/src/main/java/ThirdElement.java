@@ -9,6 +9,7 @@ public class ThirdElement {
 
         ArrayList<String> list = new ArrayList<>();
         while (true) {
+            //
             String input = scanner.nextLine();
             if (input.equals("")) {
                 break;
