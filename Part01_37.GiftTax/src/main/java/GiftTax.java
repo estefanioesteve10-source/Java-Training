@@ -27,6 +27,6 @@ public class GiftTax {
             double tax = 142100 + (value - 1000000) * 0.17;
             System.out.println("Tax: " + tax);
         }
-
+    //
     }
 }
