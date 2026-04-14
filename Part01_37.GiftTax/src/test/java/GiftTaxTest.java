@@ -21,7 +21,7 @@ public class GiftTaxTest {
     public void test2() {
         calculatesRightTax(6000, 180);
     }
-
+    //
     @Test
     public void test3() {
         calculatesRightTax(30000, 2200);
