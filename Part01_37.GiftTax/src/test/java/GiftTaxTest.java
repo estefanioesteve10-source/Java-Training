@@ -5,7 +5,7 @@ import fi.helsinki.cs.tmc.edutestutils.ReflectionUtils;
 import java.lang.reflect.Method;
 import org.junit.*;
 import static org.junit.Assert.*;
-
+//
 @Points("01-37")
 public class GiftTaxTest {
 
