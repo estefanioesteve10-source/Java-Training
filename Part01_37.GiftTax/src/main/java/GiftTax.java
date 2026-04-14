@@ -8,7 +8,7 @@ public class GiftTax {
         //
         System.out.println("Value of the gift?");
         double value = Double.valueOf(scan.nextLine());
-
+        //
         if (value < 5000) {
             System.out.println("No tax!");
         } else if (value <= 25000) {
